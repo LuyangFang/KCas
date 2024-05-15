@@ -3,9 +3,7 @@ rm(list=ls())
 library(gss)
 library(LaplacesDemon)
 
-setwd("/Users/hlu/Desktop/rs_KCas/code_github/real_gss")
 source("my_new_gssanova2.R") # remember to use my_new_gssanova
-# source("utilities_gss.R")
 source("family.R")
 
 
