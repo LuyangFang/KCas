@@ -1,4 +1,4 @@
-# MultiCOP: An Integrative Analysis of Microbiome-Metabolome Associations
+# Knowledge Cascade: Reverse Knowledge Distillation on Nonparametric Multivariate Functional Estimation
 
 **This repository contains code for the paper "Knowledge Cascade: Reverse Knowledge Distillation on Nonparametric Multivariate Functional Estimation"**
 
@@ -12,13 +12,11 @@ Here we provide the code to implement the KCas algorithm for both the **density 
 
 ### Tutorial
 
-**Density Estimation:** estimate probability densities using KCas. KCas requires two inputs, (1) formula: Symbolic description of the model to be fit; and (2) data: data frame with rows representing the individual observations and columns representing the variables. 
-The script [my_new_ssden1.R](https://github.com/Luyang8991/KCas/blob/main/density_estimation/my_new_ssden1.R) contains all the utility functions that are essential for the operations carried out in the project. An example of implementing KCas in the density estimation problem is available in [example_density.R](https://github.com/Luyang8991/KCas/blob/main/density_estimation/example_density.R). 
+**Density Estimation:** estimate probability densities using KCas. KCas requires two inputs: (1) formula, which provides a symbolic description of the model to be fitted; and (2) data, a data frame where rows  each row represents an individual observation and each column represents a variable.
+The script [my_new_ssden1.R](https://github.com/Luyang8991/KCas/blob/main/density_estimation/my_new_ssden1.R) contains all the essential utility functions for the project's operations. An example of implementing KCas for density estimation is available in [example_density.R](https://github.com/Luyang8991/KCas/blob/main/density_estimation/example_density.R). 
 
-**Nonparametric Regression:** 
+**Nonparametric Regression:** non-Gaussian regression using KCas. KCas requires three inputs: (1) formula, which provides a symbolic description of the model to be fitted; (2) data, a data frame where rows  each row represents an individual observation and each column represents a variable; and (3) family, which describe the error distribution. The scripts [my_new_gssanova2.R](https://github.com/Luyang8991/KCas/blob/main/regression/my_new_gssanova2.R) and [family.R](https://github.com/Luyang8991/KCas/blob/main/regression/family.R) contain all the essential utility functions for the project's operations. An example of implementing KCas for nonparametric regression is available in [example_logistic.R](https://github.com/Luyang8991/KCas/blob/main/regression/example_logistic.R). 
 
-
-### Data used in the paper
 
 
 
