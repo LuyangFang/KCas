@@ -12,8 +12,10 @@ Here we provide the code to implement the KCas algorithm for both the **density 
 
 ### Tutorial
 
-MultiCOP requires two data tables in matrix form as input, denoted as **X** and **Y**, each with dimensions of n_sample by n_feature. The script [utils.R](https://github.com/Luyang8991/MultiCOP/blob/main/code/utils.R) contains all the utility functions that are essential for the operations carried out in the project. The script [main.R](https://github.com/Luyang8991/MultiCOP/blob/main/code/main.R) hosts the main function of the project. An example for implementing MultiCOP is available in [example.R](https://github.com/Luyang8991/MultiCOP/blob/main/code/example.R). This example shows how to implement the second scenario in the simulation section.
+**Density Estimation:** estimate probability densities using KCas. KCas requires two inputs, (1) formula: Symbolic description of the model to be fit; and (2) data: data frame with rows representing the individual observations and columns representing the variables. 
+The script [my_new_ssden1.R](https://github.com/Luyang8991/KCas/blob/main/density_estimation/my_new_ssden1.R) contains all the utility functions that are essential for the operations carried out in the project. An example of implementing KCas in the density estimation problem is available in [example_density.R](https://github.com/Luyang8991/KCas/blob/main/density_estimation/example_density.R). 
 
+**Nonparametric Regression:** 
 
 
 ### Data used in the paper
@@ -21,7 +23,7 @@ MultiCOP requires two data tables in matrix form as input, denoted as **X** and 
 
 
 ### Reference
-  - Fang, Luyang, Lu, Haoran, Yongkai Chen, Wenxuan Zhong, Ping Ma. "Knowledge Cascade: Reverse Knowledge Distillation on Nonparametric Multivariate Functional Estimation".
+  - Fang, L., Lu, H., Chen, Y., Zhong, W., Ma. P. "Knowledge Cascade: Reverse Knowledge Distillation on Nonparametric Multivariate Functional Estimation".
 
 
 ### License
