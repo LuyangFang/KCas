@@ -2,7 +2,6 @@ rm(list = ls())
 library(gss)
 
 
-setwd("/Users/hlu/Desktop/rs_KCas/code_github/real_ssden")
 source("my_new_ssden1.R")
 
 # ==================== Settings ================================================
